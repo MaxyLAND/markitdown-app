@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where markitdown *)",
+      "Bash(where python *)",
+      "Bash(where pip *)",
+      "Bash(markitdown --help)",
+      "Bash(where iscc *)",
+      "Bash(pip show *)",
+      "Bash(python -c \"import tkinter; print\\('tk ok'\\)\")",
+      "Bash(python src/app.py --version)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Utils\\\\markitdown-app\\\\build_tools\\\\build.ps1\")",
+      "Bash(/c/Utils/markitdown-app/dist/MarkitdownApp.exe --version)",
+      "Bash(cmd //c \"C:\\\\Utils\\\\markitdown-app\\\\dist\\\\MarkitdownApp.exe --version\")",
+      "Bash(mkdir -p /tmp/mk)",
+      "Bash(echo -e \"# Hola\\\\nun parrafo\")",
+      "Bash(python /c/Utils/markitdown-app/src/app.py --convert /tmp/mk/demo.txt)",
+      "Read(//tmp/**)",
+      "Bash(where iexpress *)",
+      "Bash(cmd //c \"iexpress /N /Q C:\\\\Utils\\\\markitdown-app\\\\installer\\\\MarkitdownApp-Setup.sed\")"
+    ]
+  }
+}
