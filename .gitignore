@@ -5,7 +5,6 @@ dist/
 build_tools/*.spec
 
 # --- Instalador generado ---
-installer/out/
 installer/staging/MarkitdownApp.exe
 
 # --- Python ---

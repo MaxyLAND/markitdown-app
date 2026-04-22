@@ -31,6 +31,11 @@ python src\app.py
 
 ## Construir el `.exe` e instalar
 
+Si te fías del .exe generado en este repositorio, puedes descargar el ubicado en:
+```powershell
+/installer/out/MarkitdownApp-Setup.exe
+```
+
 Desde PowerShell, en la raíz del proyecto:
 
 ```powershell
